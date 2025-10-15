@@ -58,22 +58,6 @@ export default function ComingSoon() {
           </div>
         </div>
 
-        {/* CTAs */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <a
-            href="https://staging.ezvnts.com"
-            className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-purple-500/50 transition-all transform hover:scale-105"
-          >
-            View Staging Site
-          </a>
-          <a
-            href="mailto:hello@ezvnts.com"
-            className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-purple-400 text-white font-bold rounded-xl hover:bg-white/20 transition-all"
-          >
-            Contact Us
-          </a>
-        </div>
-
         {/* Launch Cities */}
         <div className="text-slate-400 mb-8">
           <p className="text-lg mb-2">Launching in</p>
@@ -84,8 +68,8 @@ export default function ComingSoon() {
 
         {/* Footer */}
         <div className="text-slate-500 text-sm">
-          <a href="mailto:hello@ezvnts.com" className="hover:text-purple-400 transition-colors">
-            hello@ezvnts.com
+          <a href="mailto:brandon.dune@ezvnts.com" className="hover:text-purple-400 transition-colors">
+            brandon.dune@ezvnts.com
           </a>
           {' • '}
           <span>© 2025 EZvnts</span>
